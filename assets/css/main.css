@@ -2844,27 +2844,27 @@ a.icon.alt:active:before {
 
 /* Color Assignments for each tile */
 .tiles article:nth-child(6n - 5):before {
-    background-color: #90b3b4; /* Tan */
+    background-color: #90b3b4; 
 }
 
 .tiles article:nth-child(6n - 4):before {
-    background-color: #F5EBE3; /* Brown */
+    background-color: #a58e7c; 
 }
 
 .tiles article:nth-child(6n - 3):before {
-    background-color: #919e83; /* Green */
+    background-color: #839e87; 
 }
 
 .tiles article:nth-child(6n - 2):before {
-    background-color: #c2a6b7; /* Light Green */
+    background-color: #9b859b; 
 }
 
 .tiles article:nth-child(6n - 1):before {
-    background-color: #EFDCC3; /* Cream */
+    background-color: #afa796; 
 }
 
 .tiles article:nth-child(6n):before {
-    background-color: #9c867d; /* Brown (again) */
+    background-color: #855b67; 
 }
 
 @media screen and (max-width: 1280px) {
@@ -3955,3 +3955,46 @@ a.icon.alt:active:before {
 			opacity: 1;
 			visibility: visible;
 		}
+
+.project-logo {
+    height: 420px;
+    width: auto;
+    display: block;
+    margin: 0 auto 2em;
+    object-fit: contain;
+}
+
+.tnc-logo {
+    height: 175px;
+    width: auto;
+    display: block;
+    margin: 0 auto 2em;
+    object-fit: contain;
+}
+
+.change-logo {
+    height: 120px;
+    width: auto;
+    display: block;
+    margin: 0 auto 2em;
+    object-fit: contain;
+}
+
+.ts-logo {
+    height: 200px;
+    width: auto;
+    display: block;
+    margin: 0 auto 2em;
+    object-fit: contain;
+}
+
+.calm-logo {
+    height: 200px;
+    width: auto;
+    display: block;
+    margin: 0 auto 2em;
+    object-fit: contain;
+}
+
+
+		  
