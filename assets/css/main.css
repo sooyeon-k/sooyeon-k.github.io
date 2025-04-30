@@ -2908,21 +2908,25 @@ a.icon.alt:active:before {
 
 /* Contact Method */
 
-	.contact-method {
-		margin: 0 0 2em 0;
-		padding-left: 3.25em;
-		position: relative;
-	}
+#contact .inner {
+    width: 100%; /* Ensures full width */
+    display: flex;
+    justify-content: center; /* Centers the contact section */
+    padding-top: 2rem;
+    text-align: center;
+}
 
-		.contact-method .icon {
-			left: 0;
-			position: absolute;
-			top: 0;
-		}
+.split {
+    display: flex;
+    justify-content: center;}
 
-		.contact-method h3 {
-			margin: 0 0 0.5em 0;
-		}
+.contact-method {
+    background-color: #8f7973;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
 
 /* Spotlights */
 
@@ -3995,6 +3999,32 @@ a.icon.alt:active:before {
     margin: 0 auto 2em;
     object-fit: contain;
 }
+
+.tnc-image, .nature-image, .calm-image {
+    position: relative; /* Makes the container position relative for overlay positioning */
+}
+
+.tnc-image::after, .nature-image::after, .calm-image::after {
+    content: ''; /* Empty content to create the pseudo-element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Light white overlay with opacity */
+    z-index: 1; /* Ensure it sits above the image */
+}
+
+/* Ensuring the images take up full container width */
+.tnc-image img, .nature-image img, .calm-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 0; /* Ensure image is below the overlay */
+}
+
+
 
 
 		  
