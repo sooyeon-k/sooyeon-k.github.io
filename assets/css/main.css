@@ -4024,6 +4024,12 @@ a.icon.alt:active:before {
     z-index: 0; /* Ensure image is below the overlay */
 }
 
+/* Darken contact icons to match background */
+.contact-method .icon.alt:before {
+    background-color: var(--cream); /* Keeps the icon circle light */
+    color: var(--brown);            /* Makes the icon itself dark brown */
+}
+
 
 
 
